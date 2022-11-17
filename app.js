@@ -1,6 +1,6 @@
 var BASE_URL = "https://caloric-intakes.herokuapp.com"
 // PUT THIS BASE_URL IN EVERY FETCH FUNCTION
-
+// test
 function loadMessagesFromServer() {
 
     fetch(BASE_URL + "/caloricintakes", {
