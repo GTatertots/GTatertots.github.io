@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<head>
+    <title>Caloric Intake</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="header">
+    <h1>&nbsp;</h1>
+    <h1>Your Caloric Intake</h1>
+    </div>
+
+    <div id="login">
+    <h3>Existing User?</h3>
+
+    <div id="sign-in-error">
+        <h4>Incorrect Email or Password, please try again.</h4>
+    </div>
+
+    <label for="email-input">Email:</label>
+    <input type="text" placeholder="example123@gmail.com" id="email-input">
+    
+    <label for="password-input">Password:</label>
+    <input type="text" placeholder="rubberduck5678" id="password-input">
+    <button id="login-button">Login</button>
+
+    <h3>New User?</h3>
+    <button id="create-button">Create Account</button>
+    </div>
+
+    <div id="sign-up">
+        <h3>Create Your Account</h3>
+
+        <div id="sign-up-error">
+            <h4>Error creating user, please try again.</h4>
+        </div>
+
+        <label for="firstname-input">First Name:</label>
+        <input type="text" placeholder="John" id="firstname-input">
+        
+        <label for="lastname-input">Last Name:</label>
+        <input type="text" placeholder="Doe" id="lastname-input">
+
+        <label for="newemail-input">Email:</label>
+        <input type="text" placeholder="example123@gmail.com" id="newemail-input">
+    
+        <label for="newpassword-input">Password:</label>
+        <input type="text" placeholder="rubberduck5678" id="newpassword-input">
+
+        <button id="signup-button">Sign Up</button>
+    </div>
+
+    <div id="main">
+    <h2>Record Your Caloric Intake</h2>
+    <label for="meal-input">Meal:</label>
+    <input type="text" placeholder="Chicken Wrap, Omelet, Chips, etc." id="meal-input">
+
+    <label for="type-input">Type:</label>
+    <input type="text" placeholder="Breakfast, Dinner, Snack etc." id="type-input">
+
+    <label for="caloric-input">Calories:</label>
+    <input type="text" placeholder="ex: 165, 300, 50, etc." id="caloric-input">
+
+    <label for="time-input">Time:</label>
+    <input type="text" placeholder="ex: 4:00pm, 6:00am, etc." id="time-input">
+
+    <label for="date-input">Date:</label>
+    <input type="text" placeholder="dd.mm.yyyy" id="date-input">
+
+    <button id="record-button">Record Intake</button>
+    <h2>Intake Log</h2>
+    <ul id="caloric-list"></ul>
+    <script src="app.js"></script>
+    </div>
+</body>
